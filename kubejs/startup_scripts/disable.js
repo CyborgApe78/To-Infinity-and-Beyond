@@ -30,4 +30,5 @@ global.recipe_disable = [
   'xnet:netcable_routing',
   'xnet:connector_routing',
   'rftoolsbuilder:mover',
+  /powah:battery_/,
 ]

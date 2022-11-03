@@ -16,11 +16,11 @@
     "hintOverlayToggle": true
   },
   "overlay": {
-    "overlayPosX": 0.6793478,
-    "overlayPosY": 0.07065217,
-    "overlayScale": 0.74782604,
+    "overlayPosX": 0.6467391,
+    "overlayPosY": 0.010869565,
+    "overlayScale": 0.69891304,
     "overlayAnchorX": 0.0,
-    "overlayAnchorY": 0.0,
+    "overlayAnchorY": 1.0,
     "overlaySquare": false,
     "flipMainHand": false,
     "color": {

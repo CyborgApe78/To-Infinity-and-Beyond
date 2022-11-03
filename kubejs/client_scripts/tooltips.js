@@ -14,7 +14,7 @@ onEvent('item.tooltip', tooltip => {
                 'thermal:obsidian_glass'
             ],
             text: [Text.of('Immune to the Wither').color('#4F0D75')]
-            },
+        },
         {
             items: [
                 'rftoolsbuilder:shield_block4',
@@ -64,6 +64,14 @@ onEvent('item.tooltip', tooltip => {
             ],
             text: [Text.of('Comes in all colors').white()]
         },
+        {
+            items: [
+                'ae2:cable_anchor'
+            ],
+            text: [Text.of('4 around a block makes facades').gray()]
+        },
+
+        
         
         ];
 

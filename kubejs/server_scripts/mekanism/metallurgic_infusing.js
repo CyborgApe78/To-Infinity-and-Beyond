@@ -95,6 +95,13 @@ onEvent('recipes', (event) => {
           infusionAmount: 10,
           id: 'mekanism:metallurgic_infusing/black_iron_ingot'
       },
+      {
+          output: 'fluxnetworks:flux_dust',
+          input: 'mekanism:dust_refined_obsidian',
+          infusionInput: 'mekanism:redstone',
+          infusionAmount: 10,
+          id: 'mekanism:metallurgic_infusing/flux_dust'
+      },
     ];
 
     colors.forEach(color => {

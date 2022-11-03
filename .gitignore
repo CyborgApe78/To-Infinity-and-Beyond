@@ -15,3 +15,6 @@ rhino.local
 usercache.json
 usernamecache.json
 screenshots
+config.json
+options.txt
+rhino.local.properties
