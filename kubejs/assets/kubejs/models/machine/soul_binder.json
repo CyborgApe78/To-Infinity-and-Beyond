@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+    	"north": "kubejs:block/block_attractor_side",
+    	"east": "kubejs:block/block_soul_machine_side",
+    	"south": "kubejs:block/block_soul_machine_back",
+    	"west": "kubejs:block/block_soul_machine_side",
+    	"up": "kubejs:block/block_soul_machine_top",
+    	"down": "kubejs:block/block_soul_machine_bottom",
+    	"particle": "kubejs:block/block_attractor_side"
+    }
+}

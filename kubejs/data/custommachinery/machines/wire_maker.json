@@ -1,0 +1,131 @@
+{
+  "name": "Wire Maker",
+  "appearance": {
+    "lightmode": "running",
+    "lightlevel": 7,
+    "block": "kubejs:machine/basic"
+  },
+  "components": [
+    {
+      "type": "custommachinery:redstone",
+      "power": 1
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 100000,
+      "maxInput": 1000,
+      "maxOutput": 0,
+      "config": {
+        "default": "input"
+        }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "tank1",
+      "capacity": 64000,
+      "maxInput": 1000,
+      "maxOutput": 0,
+      "mode": "input",
+      "config": {
+        "default": "input"
+        }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "tank2",
+      "capacity": 64000,
+      "maxInput": 1000,
+      "maxOutput": 0,
+      "mode": "input",
+      "filter": ["kubejs:liquid_rubber"],
+      "whitelist": true,
+      "config": {
+        "default": "input"
+        }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output1",
+      "mode": "output",
+      "slot": "output1",
+      "config": {
+        "default": "output"
+        }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade",
+      "mode": "input",
+      "variant": "custommachinery:upgrade",
+      "capacity": 1,
+      "config": {
+        "enabled": false
+        }
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 38,
+      "y": 0,
+      "width": 180
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 85
+    },
+    {
+      "type": "custommachinery:text",
+      "text": "Wire Maker",
+      "x": 77,
+      "y": 7
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 47,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 195,
+      "y": 67
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 47,
+      "y": 7
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "tank1",
+      "x": 77,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "tank2",
+      "x": 97,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output1",
+      "x": 147,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 117,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "item": "thermal:upgrade_augment_1",
+      "x": 190,
+      "y": 5
+    }
+  ]
+}

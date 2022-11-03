@@ -1,0 +1,198 @@
+{
+  "name": "Slice'N'Splice",
+  "appearance": {
+    "lightmode": "running",
+    "lightlevel": 7,
+    "block": "kubejs:machine/slice_n_splice"
+  },
+  "components": [
+    {
+      "type": "custommachinery:redstone",
+      "power": 1
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 100000,
+      "maxInput": 1000,
+      "maxOutput": 0,
+      "config": {
+        "default": "input"
+        }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "tank",
+      "capacity": 64000,
+      "maxInput": 1000,
+      "maxOutput": 0,
+      "filter": ["kubejs:liquid_nutrient_distillation"],
+      "whitelist": true,
+      "mode": "input",
+      "config": {
+        "default": "input"
+        }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input1",
+      "mode": "input",
+      "config": {
+        "default": "input"
+        }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input2",
+      "mode": "input",
+      "config": {
+        "default": "input"
+        }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input3",
+      "mode": "input",
+      "config": {
+        "default": "input"
+        }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input4",
+      "mode": "input",
+      "config": {
+        "default": "input"
+        }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input5",
+      "mode": "input",
+      "config": {
+        "default": "input"
+        }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input6",
+      "mode": "input",
+      "config": {
+        "default": "input"
+        }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output1",
+      "mode": "output",
+      "slot": "output1",
+      "config": {
+        "default": "output"
+        }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade",
+      "mode": "input",
+      "variant": "custommachinery:upgrade",
+      "capacity": 1,
+      "config": {
+        "enabled": false
+        }
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 38,
+      "y": 0,
+      "width": 180
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 85
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 47,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 195,
+      "y": 67
+    },
+    {
+      "type": "custommachinery:text",
+      "text": "Slice'N'Splice ",
+      "x": 77,
+      "y": 7
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 47,
+      "y": 7
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "tank",
+      "x": 72,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input1",
+      "x": 97,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input4",
+      "x": 97,
+      "y": 47
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input2",
+      "x": 117,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input5",
+      "x": 117,
+      "y": 47
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input3",
+      "x": 137,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input6",
+      "x": 137,
+      "y": 47
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 160,
+      "y": 42
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output1",
+      "x": 190,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "item": "thermal:upgrade_augment_1",
+      "x": 190,
+      "y": 5
+    }
+  ]
+}

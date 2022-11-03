@@ -1,0 +1,13 @@
+
+{
+	"item": "thermal:upgrade_augment_2",
+	"machines": ["custommachinery:enchanter", "custommachinery:slice_n_splice", "custommachinery:soul_binder"],
+	"modifiers": [
+		{
+			"requirement": "custommachinery:speed",
+			"mode": "input",
+			"operation": "multiplication",
+			"modifier": 0.4
+		}
+	]
+}

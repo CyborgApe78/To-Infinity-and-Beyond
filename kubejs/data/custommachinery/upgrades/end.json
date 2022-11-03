@@ -1,0 +1,13 @@
+
+{
+	"item": "thermal_extra:dragon_integral_component",
+	"machines": ["custommachinery:enchanter", "custommachinery:slice_n_splice", "custommachinery:soul_binder"],
+	"modifiers": [
+		{
+			"requirement": "custommachinery:speed",
+			"mode": "input",
+			"operation": "multiplication",
+			"modifier": 0.1
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Basic",
+  "appearance": {
+    "lightmode": "running",
+    "lightlevel": 7,
+    "block": "kubejs:machine/ore_duplicator"
+  },
+  "components": [
+    {
+      "type": "custommachinery:redstone",
+      "power": 1
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 38,
+      "y": 0,
+      "width": 180
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 85
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 47,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 195,
+      "y": 67
+    },
+	  {
+      "type": "custommachinery:text",
+      "text": "Basic",
+      "x": 77,
+      "y": 7
+    }
+
+  ]
+}

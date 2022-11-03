@@ -1,0 +1,106 @@
+{
+  "name": "Chronological Advancer",
+  "appearance": {
+    "lightmode": "running",
+    "lightlevel": 7,
+    "block": "kubejs:machine/basic"
+  },
+  "components": [
+    {
+      "type": "custommachinery:redstone",
+      "power": 1
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 100000,
+      "maxInput": 1000,
+      "maxOutput": 0,
+      "config": {
+        "default": "input",
+        "enabled": false
+        }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "tank",
+      "capacity": 10000,
+      "maxInput": 1000,
+      "maxOutput": 0,
+      "filter": ["kubejs:liquid_sunshine", "kubejs:liquid_cloud_seed"],
+      "whitelist": true,
+      "mode": "input",
+      "config": {
+        "default": "input"
+        }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input1",
+      "mode": "input",
+      "filter": ["minecraft:firework_rocket"],
+      "whitelist": true,
+      "config": {
+        "default": "input"
+        }
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 38,
+      "y": 0,
+      "width": 180
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 85
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 47,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 195,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:text",
+      "text": "Chronological Advancer",
+      "x": 77,
+      "y": 7
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 47,
+      "y": 7
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "tank",
+      "x": 82,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input1",
+      "item": "minecraft:firework_rocket",
+      "x": 152,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 112,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 77,
+      "y": 70,
+      "id": "tank"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+//priority: 1000
+let colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
+let vanillaMetals = ['iron', 'gold', 'copper']
+let mekanismMetals = ['osmium', 'lead', 'tin', 'uranium']
+let mekanismAlloys = ['steel', 'refined_obsidian', 'refined_glowstone', 'bronze']
+let thermalMetals = ['tin', 'lead', 'silver', 'nickel']
+let thermalAlloys = ['bronze', 'electrum', 'invar', 'constantan', 'signalum', 'lumium', 'enderium']
+let ae2cables = ['smart_cable', 'covered_cable', 'glass_cable', 'covered_dense_cable', 'smart_dense_cable']
+let infinityTool = ['drill', 'saw', 'backpack', 'hammer', 'trident', 'nuke', 'launcher']
+let infinityTier = ['COMMON', 'UNCOMMON', 'RARE', 'EPIC', 'ARTIFACT']

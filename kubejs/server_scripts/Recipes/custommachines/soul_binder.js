@@ -1,0 +1,35 @@
+
+onEvent('recipes', e => {
+
+  e.recipes.custommachinery.custom_machine("custommachinery:soul_binder", 80)
+      .requireFluid(Fluid.of("industrialforegoing:essence", 10000 ))
+      .requireItem(Item.of('kubejs:zombie_electrode'))
+      .requireItem(Item.of('industrialforegoing:mob_imprisonment_tool', '{entity:"minecraft:zombie"}'))
+      .requireEnergy(25000)
+      .produceItem('kubejs:zombie_controller', "output1")
+      .produceItem('industrialforegoing:mob_imprisonment_tool', "output2")
+
+    e.recipes.custommachinery.custom_machine("custommachinery:soul_binder", 80)
+        .requireFluid(Fluid.of("industrialforegoing:essence", 10000 ))
+        .requireItem(Item.of('kubejs:ender_resonator'))
+        .requireItem(Item.of('industrialforegoing:mob_imprisonment_tool', '{entity:"minecraft:enderman"}'))
+        .requireEnergy(25000)
+        .produceItem('kubejs:ender_controller', "output1")
+        .produceItem('industrialforegoing:mob_imprisonment_tool', "output2")
+
+    e.recipes.custommachinery.custom_machine("custommachinery:soul_binder", 80)
+        .requireFluid(Fluid.of("industrialforegoing:essence", 10000 ))
+        .requireItem(Item.of('kubejs:skeleton_electrode'))
+        .requireItem(Item.of('industrialforegoing:mob_imprisonment_tool', '{entity:"minecraft:skeleton"}'))
+        .requireEnergy(25000)
+        .produceItem('kubejs:skeleton_controller', "output1")
+        .produceItem('industrialforegoing:mob_imprisonment_tool', "output2")
+
+    e.recipes.custommachinery.custom_machine("custommachinery:soul_binder", 80)
+        .requireFluid(Fluid.of("industrialforegoing:essence", 10000 ))
+        .requireItem(Item.of('kubejs:vibrant_crystal'))
+        .requireItem(Item.of('industrialforegoing:mob_imprisonment_tool', '{entity:"minecraft:enderman"}'))
+        .requireEnergy(25000)
+        .produceItem('kubejs:ender_crystal', "output1")
+        .produceItem('industrialforegoing:mob_imprisonment_tool', "output2")
+})
