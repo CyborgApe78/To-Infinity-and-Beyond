@@ -33,11 +33,11 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}rf_coil`
         },
         {
-            output: 'thermal:redstone_servo',
-            input: '#forge:ingots/iron',
+            output: 'redstone_arsenal:flux_ingot',
+            input: '#forge:ingots/electrum',
             infusionInput: 'mekanism:redstone',
             infusionAmount: 40,
-            id: `${id_prefix}redstone_servo`
+            id: `${id_prefix}flux_ingot`
         },
         {
             output: 'kubejs:ingot_dark_steel',
