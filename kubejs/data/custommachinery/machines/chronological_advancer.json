@@ -87,7 +87,7 @@
     {
       "type": "custommachinery:slot",
       "id": "input1",
-      "item": "minecraft:firework_rocket",
+      "ghost": "minecraft:firework_rocket",
       "x": 152,
       "y": 37
     },

@@ -149,7 +149,7 @@
     {
       "type": "custommachinery:slot",
       "id": "upgrade",
-      "item": "thermal:upgrade_augment_1",
+      "ghost": "thermal:upgrade_augment_1",
       "x": 190,
       "y": 5
     }
