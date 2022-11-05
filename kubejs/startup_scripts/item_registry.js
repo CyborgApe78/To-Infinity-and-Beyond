@@ -76,6 +76,8 @@ onEvent('item.registry', event => {
 	event.create('ingot_stellar_alloy').displayName('Stellar Alloy Ingot')
 	event.create('ingot_vibrant_alloy').displayName('Vibrant Alloy Ingot')
 	event.create('ingot_vivid_alloy').displayName('Vivid Alloy Ingot')
+	event.create('ingot_quartz_enriched_iron').displayName('Quartz Enriched Ingot')
+
 
 //#Nugget//
 	event.create('nugget_conductive_iron').displayName('Conductive Iron Nugget')
@@ -115,6 +117,10 @@ onEvent('item.registry', event => {
 	event.create('dust_petrotheum').displayName('Petrotheum Dust')
 
 	//Enriched//
-	event.create('enriched_base').displayName('Enriched Ender')
+	event.create('enriched_glowstone').displayName('Enriched Glowstone')
+	event.create('enriched_ender').displayName('Enriched Ender')
+	event.create('enriched_certus').displayName('Enriched Certus')
+	event.create('enriched_silicon').displayName('Enriched Silicon')
+	event.create('enriched_blaze').displayName('Enriched Blaze')
 
 })

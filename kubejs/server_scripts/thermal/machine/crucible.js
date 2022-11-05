@@ -2,13 +2,13 @@ onEvent('recipes', (event) => {
     const id_prefix = 'infinity:thermal/crucible/';
     const recipes = [
         {
-            output: Fluid.of('kubejs:molten_blitz', 250),
+            output: Fluid.of('kubejs:molten_blitz', 200),
             input: 'thermal:blitz_powder',
             energy: 5000,
             id: `${id_prefix}blitz_powder`
         },
         {
-            output: Fluid.of('kubejs:molten_blizz', 250),
+            output: Fluid.of('kubejs:molten_blizz', 200),
             input: 'thermal:blizz_powder',
             energy: 5000,
             id: `${id_prefix}blizz_powder`
@@ -20,37 +20,37 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}molten_glass`
         },
         {
-            output: Fluid.of('kubejs:liquid_blazing_pyrotheum', 250),
+            output: Fluid.of('kubejs:liquid_blazing_pyrotheum', 200),
             input: 'kubejs:dust_pyrotheum',
             energy: 8000,
             id: `${id_prefix}liquid_blazing_pyrotheum`
         },
         {
-            output: Fluid.of('kubejs:liquid_gelid_cryotheum', 250),
+            output: Fluid.of('kubejs:liquid_gelid_cryotheum', 200),
             input: 'kubejs:dust_cryotheum',
             energy: 8000,
             id: `${id_prefix}liquid_gelid_cryotheum`
         },
         {
-            output: Fluid.of('kubejs:liquid_zephyrean_aerotheum', 250),
+            output: Fluid.of('kubejs:liquid_zephyrean_aerotheum', 200),
             input: 'kubejs:dust_aerotheum',
             energy: 8000,
             id: `${id_prefix}liquid_zephyrean_aerotheum`
         },
         {
-            output: Fluid.of('kubejs:liquid_tectonic_petrotheum', 250),
+            output: Fluid.of('kubejs:liquid_tectonic_petrotheum', 200),
             input: 'kubejs:dust_petrotheum',
             energy: 8000,
             id: `${id_prefix}liquid_tectonic_petrotheum`
         },
         {
-            output: Fluid.of('kubejs:liquid_gelid_cryotheum', 250),
+            output: Fluid.of('kubejs:liquid_gelid_cryotheum', 200),
             input: 'kubejs:dust_cryotheum',
             energy: 8000,
             id: `${id_prefix}liquid_gelid_cryotheum`
         },
         {
-            output: Fluid.of('kubejs:liquid_slime', 90),
+            output: Fluid.of('kubejs:liquid_slime', 100),
             input: '#forge:slimeballs',
             energy: 1200,
             id: `${id_prefix}liquid_slime`
@@ -61,9 +61,9 @@ onEvent('recipes', (event) => {
     recipes.forEach((recipe) => {
         event.recipes.thermal.crucible(recipe.output, recipe.input).energy(recipe.energy).id(recipe.id);
     });
-//TODO: change to 200
 
-let ingotToMolten = 200
+
+
     event.recipes.thermal.crucible(Fluid.of('kubejs:molten_aluminum', ingotToMolten), '#forge:ingots/aluminum').energy(1200);
   event.recipes.thermal.crucible(Fluid.of('kubejs:molten_brass', ingotToMolten), '#forge:ingots/brass').energy(1200);
   event.recipes.thermal.crucible(Fluid.of('kubejs:molten_bronze', ingotToMolten), '#forge:ingots/bronze').energy(1200);

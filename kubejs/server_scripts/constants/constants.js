@@ -1,4 +1,5 @@
 //priority: 2000
+const air = 'minecraft:air';
 let colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
 let vanillaMetals = ['iron', 'gold', 'copper']
 let mekanismMetals = ['osmium', 'lead', 'tin', 'uranium']
@@ -8,6 +9,7 @@ let thermalAlloys = ['bronze', 'electrum', 'invar', 'constantan', 'signalum', 'l
 let ae2cables = ['smart_cable', 'covered_cable', 'glass_cable', 'covered_dense_cable', 'smart_dense_cable']
 let infinityTool = ['drill', 'saw', 'backpack', 'hammer', 'trident', 'nuke', 'launcher']
 let infinityTier = ['COMMON', 'UNCOMMON', 'RARE', 'EPIC', 'ARTIFACT']
+let ingotToMolten = 100
 
 const industrialforegoing = {
     laser_lens: {

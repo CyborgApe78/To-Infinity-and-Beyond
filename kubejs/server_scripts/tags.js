@@ -77,6 +77,7 @@ onEvent('tags.items', e => {
   e.add('forge:ingots/stellar_alloy', 'kubejs:ingot_stellar_alloy')
   e.add('forge:ingots/vibrant_alloy', 'kubejs:ingot_vibrant_alloy')
   e.add('forge:ingots/vivid_alloy', 'kubejs:ingot_vivid_alloy')
+  e.add('forge:ingots/ingot_quartz_enriched_iron', 'kubejs:ingot_quartz_enriched_iron')
 
   //===== plants tag =====//
   e.add('misctags:biofuel2', ['#minecraft:saplings', '#minecraft:leaves', '#forge:seeds', 'minecraft:dried_kelp', 'minecraft:kelp', 'minecraft:seagrass', 'minecraft:grass'])
@@ -153,4 +154,5 @@ onEvent('infuse_type.tags', (event) => {
     event.get('kubejs:ender').add(['kubejs:ender']);
     event.get('kubejs:blazing').add(['kubejs:blazing']);
     event.get('kubejs:silicon').add(['kubejs:silicon']);
+    event.get('kubejs:glowing').add(['kubejs:glowing']);
 });
