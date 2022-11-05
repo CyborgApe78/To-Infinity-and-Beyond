@@ -1,5 +1,24 @@
 //priority: 1000
 
+// transplant the md5 from `<type's mod>:kjs_<hash>` onto the supplied prefix
+function fallback_id(recipe, id_prefix) {
+    if (recipe.getId().includes(':kjs_')) {
+        recipe.serializeJson(); // without this the hashes *will* collide
+        recipe.id(id_prefix + 'md5_' + recipe.getUniqueId());
+    }
+}
+
+function getStrippedLogFrom(logBlock) {
+    let result = air;
+    buildWoodVariants.find((wood) => {
+        if (wood.logBlock == logBlock) {
+            result = wood.logBlockStripped;
+            return result;
+        }
+    });
+    return result;
+}
+
 let modifyShaped = (e, result, count, pattern, ingredients) => {
   e.remove({ output: result, type: 'minecraft:crafting_shaped' })
   e.shaped(Item.of(result, count), pattern, ingredients).id(`kubejs:shaped/${result.replace(':', '/')}`)
