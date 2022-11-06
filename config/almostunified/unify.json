@@ -4,8 +4,9 @@
     "kubejs",
     "thermal",
     "mekanism",
-    "alltheores",
-    "beyond_earth"
+    "beyond_earth",
+    "alltheores"
+    
   ],
   "stoneStrata": [
     "stone",

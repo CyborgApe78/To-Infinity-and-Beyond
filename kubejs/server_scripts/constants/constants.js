@@ -10,6 +10,14 @@ let ae2cables = ['smart_cable', 'covered_cable', 'glass_cable', 'covered_dense_c
 let infinityTool = ['drill', 'saw', 'backpack', 'hammer', 'trident', 'nuke', 'launcher']
 let infinityTier = ['COMMON', 'UNCOMMON', 'RARE', 'EPIC', 'ARTIFACT']
 let ingotToMolten = 100
+let machineframe1 = 'thermal:redstone_servo'
+let machineframe2 = 'industrialforegoing:machine_frame_pity'
+let machineframe3 = 'industrialforegoing:machine_frame_simple'
+let machineframe4 = 'thermal:machine_frame'
+let machineframe5 = 'industrialforegoing:machine_frame_advanced'
+let machineframe6 = 'industrialforegoing:machine_frame_supreme'
+let powerframe1 = 'powah:dielectric_casing'
+let powerframe2 = 'thermal:energy_cell_frame'
 
 const industrialforegoing = {
     laser_lens: {

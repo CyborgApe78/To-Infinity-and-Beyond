@@ -2,6 +2,18 @@ onEvent('recipes', (event) => {
     const id_prefix = 'infinity:thermal/crucible/';
     const recipes = [
         {
+            output: Fluid.of('kubejs:molten_plastic', 400),
+            input: 'mekanism:hdpe_sheet',
+            energy: 5000,
+            id: `${id_prefix}hdpe_sheet`
+        },
+        {
+            output: Fluid.of('kubejs:molten_plastic', 100),
+            input: 'industrialforegoing:plastic',
+            energy: 5000,
+            id: `${id_prefix}plastic`
+        },          
+        {
             output: Fluid.of('kubejs:molten_blitz', 200),
             input: 'thermal:blitz_powder',
             energy: 5000,

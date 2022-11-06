@@ -43,7 +43,7 @@
 		"Glacio Zinc Ore Height Bottom" = -80
 		#Should Glacio Zinc Ore Vein Size.
 		#Default = 8 (number)
-		"Glacio Zinc Ore Vein Size" = 6
+		"Glacio Zinc Ore Vein Size" = 0
 
 	["Beyond Planets Core - Glacio Ore Config"."Beyond Planets Core - Glacio Cobalt Ore Config"]
 		#Should Glacio Cobalt Ore spawn.
@@ -54,5 +54,5 @@
 		"Glacio Cobalt Ore Height Bottom" = -80
 		#Should Glacio Cobalt Ore Vein Size.
 		#Default = 8 (number)
-		"Glacio Cobalt Ore Vein Size" = 6
+		"Glacio Cobalt Ore Vein Size" = 10
 

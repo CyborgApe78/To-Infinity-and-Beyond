@@ -3,6 +3,19 @@ onEvent('recipes', (event) => {
     const recipes = [
         {
           ingredients: [{
+              fluid: "kubejs:liquid_blazing_pyrotheum",
+              amount: 1000
+            },
+            {
+              item: "kubejs:dust_blaze"
+            }],
+            result: [{
+              item: "powah:crystal_blazing"
+            }],
+            id: `${id_prefix}crystal_blazing`
+        },
+        {
+          ingredients: [{
               fluid: "kubejs:liquid_gelid_cryotheum",
               amount: 1000
             },
@@ -72,38 +85,12 @@ onEvent('recipes', (event) => {
               amount: 250
             },
             {
-              item: "thermal:blizz_powder"
-            }],
-            result: [{
-              item: "kubejs:dust_cryotheum"
-            }],
-            id: `${id_prefix}dust_cryotheum`
-        },
-        {
-            ingredients: [{
-              fluid: "thermal:redstone",
-              amount: 250
-            },
-            {
               item: "thermal:blitz_powder"
             }],
             result: [{
               item: "kubejs:dust_aerotheum"
             }],
             id: `${id_prefix}dust_aerotheum`
-        },
-        {
-            ingredients: [{
-              fluid: "thermal:redstone",
-              amount: 250
-            },
-            {
-              item: "thermal:blaze_powder"
-            }],
-            result: [{
-              item: "kubejs:dust_pyrotheum"
-            }],
-            id: `${id_prefix}dust_pyrotheum`
         },
         {
             ingredients: [{

@@ -54,7 +54,7 @@
 		"Venus Zinc Ore Height Bottom" = -80
 		#Should Venus Zinc Ore Vein Size.
 		#Default = 8 (number)
-		"Venus Zinc Ore Vein Size" = 6
+		"Venus Zinc Ore Vein Size" = 10
 
 	["Beyond Planets Core - Venus Ore Config"."Beyond Planets Core - Venus Cobalt Ore Config"]
 		#Should Venus Cobalt Ore spawn.
@@ -65,5 +65,5 @@
 		"Venus Cobalt Ore Height Bottom" = -80
 		#Should Venus Cobalt Ore Vein Size.
 		#Default = 8 (number)
-		"Venus Cobalt Ore Vein Size" = 6
+		"Venus Cobalt Ore Vein Size" = 0
 

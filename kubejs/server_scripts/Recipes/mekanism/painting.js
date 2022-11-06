@@ -83,23 +83,39 @@ onEvent('recipes', (event) => {
           }
         });
 
+
          event.custom({
           "type": "mekanism:painting",
           "chemicalInput": {
-            "amount": 256,
+            "amount": 32,
             "pigment": `mekanism:${color}`
           },
           "itemInput": {
             "ingredient": {
-              "tag": `minecraft:shulker_boxes`
+              "item": `minecraft:shulker_box`
             }
           },
           "output": {
             "item": `minecraft:${color}_shulker_box`
           }
         });
-        
 
+         event.custom({
+          "type": "mekanism:painting",
+          "chemicalInput": {
+            "amount": 32,
+            "pigment": `mekanism:${color}`
+          },
+          "itemInput": {
+            "ingredient": {
+              "item": `minecraft:${color}_shulker_box`
+            }
+          },
+          "output": {
+            "item": `minecraft:${color}_shulker_box`
+          }
+        });
+         
         ae2cables.forEach(cable => {
             event.custom({
               "type": "mekanism:painting",
@@ -151,6 +167,40 @@ onEvent('recipes', (event) => {
                 }
               });
         };
+
+    event.custom({
+        "type": "mekanism:painting",
+        "chemicalInput": {
+          "amount": 32,
+          "pigment": `mekanism:white`
+        },
+        "itemInput": {
+          "ingredient": {
+            "tag": 'simplylight:any_lamp_on'
+          }
+        },
+        "output": {
+          "item": `simplylight:illuminant_block_on`
+        }
+      });
+
+    event.custom({
+        "type": "mekanism:painting",
+        "chemicalInput": {
+          "amount": 32,
+          "pigment": `mekanism:white`
+        },
+        "itemInput": {
+          "ingredient": {
+            "tag": 'simplylight:any_lamp'
+          }
+        },
+        "output": {
+          "item": `simplylight:illuminant_block`
+        }
+      });
+
+
     });
 
 });

@@ -54,7 +54,7 @@
 		"Moon Zinc Ore Height Bottom" = -80
 		#Should Moon Zinc Ore Vein Size.
 		#Default = 8 (number)
-		"Moon Zinc Ore Vein Size" = 6
+		"Moon Zinc Ore Vein Size" = 0
 
 	["Beyond Planets Core - Moon Ore Config"."Beyond Planets Core - Moon Cobalt Ore Config"]
 		#Should Moon Cobalt Ore spawn.
@@ -65,7 +65,7 @@
 		"Moon Cobalt Ore Height Bottom" = -80
 		#Should Moon Cobalt Ore Vein Size.
 		#Default = 8 (number)
-		"Moon Cobalt Ore Vein Size" = 6
+		"Moon Cobalt Ore Vein Size" = 0
 
 	["Beyond Planets Core - Moon Ore Config"."Beyond Planets Core - Moon Coal Ore Config"]
 		#Should Moon Coal Ore spawn.

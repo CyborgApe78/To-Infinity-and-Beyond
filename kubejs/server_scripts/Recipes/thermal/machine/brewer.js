@@ -21,6 +21,13 @@ onEvent('recipes', (event) => {
             ],
             input: [Fluid.of('thermal:glowstone', 400), Item.of('minecraft:redstone')],
             id: `${id_prefix}liquid_sunshine`
+        },
+        {
+            outputs: [
+                Fluid.of('kubejs:liquid_nutrient_distillation', 500)
+            ],
+            input: [Fluid.of('minecraft:water', 1000), Item.of('minecraft:rotten_flesh')],
+            id: `${id_prefix}liquid_nutrient_distillation`
         }
     ];
     recipes.forEach((recipe) => {

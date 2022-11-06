@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+    	"north": "kubejs:block/machine_gear",
+    	"east": "kubejs:block/machine_side",
+    	"south": "kubejs:block/machine_side",
+    	"west": "kubejs:block/machine_side",
+    	"up": "kubejs:block/machine_top",
+    	"down": "kubejs:block/machine_bottom",
+    	"particle": "kubejs:block/machine_side"
+    }
+}

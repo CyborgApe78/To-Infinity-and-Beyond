@@ -120,4 +120,7 @@ onEvent('recipes', e => {
     enchanter(1, 8, 'minecraft:nether_star', 1, 5000, 'beyond_earth_giselle_addon:space_fire_proof')
 
     enchanter(1, 8, 'minecraft:nether_star', 1, 5000, 'beyond_earth_giselle_addon:venus_acid_proof')
+
+    enchanter(1, 8, 'minecraft:nether_star', 1, 5000,'minecraft:soul_speed')
+
   })

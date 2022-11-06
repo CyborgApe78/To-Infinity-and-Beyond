@@ -33,7 +33,12 @@ onEvent('recipes', (event) => {
                 inputs: ['minecraft:ender_pearl', 'kubejs:ingot_energetic_alloy'],
                 outputs: [Item.of('kubejs:ingot_vibrant_alloy', 1)],
                 id: `${id_prefix}ingot_vibrant_alloy`
-            }
+            },
+            {
+                inputs: ['#forge:ingots/copper', '#forge:ingots/zinc'],
+                outputs: [Item.of('#forge:ingots/brass', 2)],
+                id: `${id_prefix}brass`
+            },
         ]
     };
 

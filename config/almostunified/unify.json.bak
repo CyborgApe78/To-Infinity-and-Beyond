@@ -5,7 +5,8 @@
     "thermal",
     "mekanism",
     "beyond_earth",
-    "alltheores"
+    "alltheores",
+    
   ],
   "stoneStrata": [
     "stone",
@@ -80,6 +81,7 @@
   ],
   "priorityOverrides": {},
   "ignoredTags": [],
+  "ignoredItems": [],
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],

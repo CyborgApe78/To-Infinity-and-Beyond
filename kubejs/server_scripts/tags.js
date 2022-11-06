@@ -32,7 +32,6 @@ onEvent('tags.items', e => {
   mekanismMetals.forEach(metal => e.add(`forge:raw_ores/${metal}`, `mekanism:raw_${metal}`))
 
   e.add('forge:rods/all_metal', '#forge:rods/metal');
-  e.add('forge:ingots', [/kubejs:ingot_.*/, /extendedcrafting:.*_ingot/])
   e.add('forge:nuggets', [/kubejs:nugget_.*/])
   e.add('forge:storage_blocks', [/kubejs:block_.*/, /extendedcrafting:.*_block/])
 
@@ -57,8 +56,8 @@ onEvent('tags.items', e => {
 
   e.add('forge:plastic', ['mekanism:hdpe_sheet'])
 
-  e.add('forge:gems/dimensionalshard', 'rftoolsbase:dimensionalshard')
 
+  e.add('forge:ingots', [/kubejs:ingot_.*/, /extendedcrafting:.*_ingot/, 'redstone_arsenal:flux_ingot'])
   e.add('forge:ingots/conductive_iron', 'kubejs:ingot_conductive_iron')
   e.add('forge:ingots/construction_alloy', 'kubejs:ingot_dark_steel')
   e.add('forge:ingots/crude_steel', 'kubejs:ingot_crude_steel')
@@ -78,6 +77,7 @@ onEvent('tags.items', e => {
   e.add('forge:ingots/vibrant_alloy', 'kubejs:ingot_vibrant_alloy')
   e.add('forge:ingots/vivid_alloy', 'kubejs:ingot_vivid_alloy')
   e.add('forge:ingots/ingot_quartz_enriched_iron', 'kubejs:ingot_quartz_enriched_iron')
+  e.add('forge:ingots/flux', 'redstone_arsenal:flux_ingot')
 
   //===== plants tag =====//
   e.add('misctags:biofuel2', ['#minecraft:saplings', '#minecraft:leaves', '#forge:seeds', 'minecraft:dried_kelp', 'minecraft:kelp', 'minecraft:seagrass', 'minecraft:grass'])
@@ -91,6 +91,7 @@ onEvent('tags.items', e => {
   e.add('forge:mushroom_caps', ['#forge:mushroom_caps/red_mushroom', '#forge:mushroom_caps/brown_mushroom', '#forge:mushroom_caps/blue_glowshroom', '#forge:mushroom_caps/purple_glowshroom', '#forge:mushroom_caps/green_mushroom', '#forge:mushroom_caps/black_puff_mushroom', '#forge:mushroom_caps/weeping_milkcap_mushroom'])
   e.add('forge:mushroom_stems', ['#forge:mushroom_stems/mushroom', '#forge:mushroom_stems/brown_mushroom', '#forge:mushroom_stems/white_mushroom', '#forge:mushroom_stems/red_glowshroom', '#forge:mushroom_stems/yellow_glowshroom'])
   e.add('forge:mushrooms', ['minecraft:warped_fungus', 'minecraft:crimson_fungus'])
+ 
   //===== blocks tag =====//
   e.add('forge:storage_blocks/uraninite', 'powah:uraninite_block')
   e.add('forge:storage_blocks', '#forge:storage_blocks/uraninite')
@@ -120,6 +121,7 @@ onEvent('tags.items', e => {
   e.add('forge:gems/niotic', 'powah:crystal_niotic')
   e.add('forge:gems/spirited', 'powah:crystal_spirited')
   e.add('forge:gems/nitro', 'powah:crystal_nitro')
+  e.add('forge:gems/dimensionalshard', 'rftoolsbase:dimensionalshard')
 
   //powder//
   e.add('forge:powder', 'minecraft:blaze_powder', 'thermal:blizz_powder', 'thermal:blitz_powder', 'thermal:basalz_powder')

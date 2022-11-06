@@ -54,7 +54,7 @@
 		"Mercury Zinc Ore Height Bottom" = -80
 		#Should Mercury Zinc Ore Vein Size.
 		#Default = 8 (number)
-		"Mercury Zinc Ore Vein Size" = 6
+		"Mercury Zinc Ore Vein Size" = 0
 
 	["Beyond Planets Core - Mercury Ore Config"."Beyond Planets Core - Mercury Cobalt Ore Config"]
 		#Should Mercury Cobalt Ore spawn.
@@ -65,7 +65,7 @@
 		"Mercury Cobalt Ore Height Bottom" = -80
 		#Should Mercury Cobalt Ore Vein Size.
 		#Default = 8 (number)
-		"Mercury Cobalt Ore Vein Size" = 6
+		"Mercury Cobalt Ore Vein Size" = 0
 
 	["Beyond Planets Core - Mercury Ore Config"."Beyond Planets Core - Mercury Coal Ore Config"]
 		#Should Mercury Coal Ore spawn.

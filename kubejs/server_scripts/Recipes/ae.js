@@ -1,6 +1,9 @@
 onEvent('recipes', e => {
-    e.remove({ id: 'aeinfinitybooster:infinity_card' })
-    e.shaped('aeinfinitybooster:infinity_card', ['EBE', 'BUB', 'NNN'], {
+
+    
+    //villager soul? desh for controller
+
+    modifyShaped(e, 'aeinfinitybooster:infinity_card', 1, ['EBE', 'BUB', 'NNN'], {
         U: '#forge:ingots/enderium',
         B: 'ae2:wireless_booster',
         E: '#forge:plates/enderium',

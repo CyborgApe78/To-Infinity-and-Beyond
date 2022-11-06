@@ -3,7 +3,7 @@
   "appearance": {
     "lightmode": "running",
     "lightlevel": 7,
-    "block": "kubejs:machine/basic"
+    "block": "kubejs:machine/rod_maker"
   },
   "components": [
     {
@@ -93,6 +93,7 @@
     {
       "type": "custommachinery:slot",
       "id": "output1",
+      "ghost": "beyond_earth:iron_stick",
       "x": 147,
       "y": 37
     },

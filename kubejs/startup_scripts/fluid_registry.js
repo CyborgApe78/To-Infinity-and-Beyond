@@ -7,6 +7,7 @@ onEvent('fluid.registry', event => {
     event.create('molten_lumium_glass').displayName('Molten Lumium Glass').thickTexture(0x959674).bucketColor(0x959674)
     event.create('molten_enderium_glass').displayName('Molten Enderium Glass').thickTexture(0x356e5b).bucketColor(0x356e5b)
     event.create('molten_glass').displayName('Molten Glass').thickTexture(0x808080).bucketColor(0x808080)
+    event.create('molten_plastic').displayName('Molten Plastic').thickTexture(0x808080).bucketColor(0x808080)
 
     event.create('molten_spirited').displayName('Molten Spirited Crystal').thickTexture(0x86c52d).bucketColor(0x86c52d)
     event.create('molten_nitro').displayName('Molten Nitro Crystal').thickTexture(0xa42022).bucketColor(0xa42022)

@@ -3,6 +3,7 @@ onEvent('jei.hide.items', e => {
   console.log('jei remove stuff')
 
   e.hide([
+    /minecraft:enchanted_book/,
     'custommachinery:box_creator_item',
     'custommachinery:machine_creator_item',
     /titanium:/,
@@ -32,6 +33,14 @@ onEvent('jei.hide.items', e => {
     /mekanism:\w+_bucket/,
     /mekanismgenerators:\w+_bucket/,
     /mekanismmatter:\w+_bucket/,
+    'minecraft:water_bucket',
+    'minecraft:lava_bucket',
+    'minecraft:milk_bucket',
+    /minecraft:\w+spawn_egg/,
+    /mekanismadditions:\w+spawn_egg/,
+    /thermal:\w+spawn_egg/,
+    /beyond_earth:\w+spawn_egg/,
+    /farmersdelight:\w+_canvas_sign/,
     /ae2:memory_card_/,
     Item.of('industrialforegoing:infinity_hammer', '{Beheading:0,CanCharge:1b,Energy:4000000L,Fluid:{Amount:0,FluidName:"biofuel"},Selected:"COMMON",Special:0b}'),
     Item.of('industrialforegoing:infinity_hammer', '{Beheading:0,CanCharge:1b,Energy:16000000L,Fluid:{Amount:0,FluidName:"biofuel"},Selected:"UNCOMMON",Special:0b}'),
@@ -120,13 +129,15 @@ onEvent('jei.hide.items', e => {
 })
 
 
-onEvent('jei.hide.fluids', event => {
+onEvent('jei.hide.fluids', e => {
   console.log('jei hide fluid')
 })
 
 
-onEvent('jei.add.items', event => { //todo: not working
-  console.log('jei add stuff')
-  event.add('ae2:memory_card_purple')
-  event.add(Item.of('appliedenergistics2:facade', {item:"minecraft:stone"}))
+onEvent('jei.add.items', e => {
+  e.add([
+    Item.of('appliedenergistics2:facade', {item:"minecraft:stone"}),
+
+  ])
+
 })

@@ -1,5 +1,7 @@
 onEvent('item.tooltip', tooltip => {
 
+
+
     tooltip.add('ae2:facade', 'Using the same recipe, you can make a facade out of almost any block')
       const recipes = [
         {
@@ -11,7 +13,8 @@ onEvent('item.tooltip', tooltip => {
                 'thermal:enderium_glass',
                 'thermal:lumium_glass',
                 'thermal:signalum_glass',
-                'thermal:obsidian_glass'
+                'thermal:obsidian_glass',
+                /mekanismadditions:\w+reinforced_plastic/,
             ],
             text: [Text.of('Immune to the Wither').color('#4F0D75')]
         },
@@ -26,13 +29,7 @@ onEvent('item.tooltip', tooltip => {
         },
         {
             items: [
-                'industrialforegoing:infinity_backpack',
-                'industrialforegoing:infinity_saw',
-                'industrialforegoing:infinity_drill',
-                'industrialforegoing:infinity_hammer',
-                'industrialforegoing:infinity_trident',
-                'industrialforegoing:infinity_nuke',
-                'industrialforegoing:infinity_launcher'
+                /industrialforegoing:infinity_\w+/,
             ],
             text: [Text.of('Can charge in Nucleosynthesis').green()]
         },
@@ -42,7 +39,7 @@ onEvent('item.tooltip', tooltip => {
                 'beyond_earth:flag',
                 'simplylight:illuminant_block_on',
                 'simplylight:illuminant_block',
-                /mekanismadditions:white/,
+                /mekanismadditions:\w+plastic/,
                 `minecraft:white_bed`,
                 `minecraft:white_wool`,
                 `thermal:white_rockwool`,
@@ -57,12 +54,13 @@ onEvent('item.tooltip', tooltip => {
                 'minecraft:candle',
                 'minecraft:shulker_box',
                 'minecraft:terracotta',
+                'farmersdelight:canvas_sign',
 
                  ae2cables.forEach(cable => {
                     `ae2:fluix_${cable}`
                     })
             ],
-            text: [Text.of('Comes in all colors').white()]
+            text: [Text.of('Can be dyed in the Mekanism Painting Machine').white()]
         },
         {
             items: [

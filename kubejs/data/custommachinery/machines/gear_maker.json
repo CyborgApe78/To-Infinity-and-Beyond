@@ -3,7 +3,7 @@
   "appearance": {
     "lightmode": "running",
     "lightlevel": 7,
-    "block": "kubejs:machine/basic"
+    "block": "kubejs:machine/gear_maker"
   },
   "components": [
     {
@@ -93,6 +93,7 @@
     {
       "type": "custommachinery:slot",
       "id": "output1",
+      "ghost": "thermal:iron_gear",
       "x": 147,
       "y": 37
     },
